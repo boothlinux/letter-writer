@@ -60,7 +60,7 @@ while True:
         p = document.add_paragraph(signature)
 
         document.save(name + " - " + todays_date +".docx")
-        window['outputline'].update('Created!')
+        window['outputline'].update('Created ' + name + ' ' + todays_date)
 
     except Exception as e:
         print(e)
