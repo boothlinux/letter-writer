@@ -1,3 +1,7 @@
+#Copyright 2021 Colton Booth
+#Released under the Apache 2.0 licence
+#See LICENCE file for complete text
+
 from docx import Document
 import PySimpleGUI as sg
 from datetime import datetime
